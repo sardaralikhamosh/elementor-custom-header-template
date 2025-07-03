@@ -1,0 +1,247 @@
+<!-- Platinum Partnership Header -->
+<header class="pp-header">
+  <div class="pp-header-container">
+    <!-- Logo -->
+    <div class="pp-logo-wrapper">
+      <a href="https://theplatinumpartnership.com/" class="pp-logo-link">
+        <img src="https://theplatinumpartnership.com/wp-content/uploads/2024/06/site-Logo-1.png" alt="Platinum Partnership" class="pp-logo-img" width="180" height="50">
+      </a>
+    </div>
+    
+    <!-- Desktop Navigation -->
+    <nav class="pp-desktop-nav">
+      <ul class="pp-nav-menu">
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/" class="pp-menu-link pp-active">Home</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/about/" class="pp-menu-link">About</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/who-we-are/" class="pp-menu-link">Who We Are</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/what-we-do/" class="pp-menu-link">What We Do</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/how-we-work/" class="pp-menu-link">How We Work</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/projects/" class="pp-menu-link">Projects</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/gallery/" class="pp-menu-link">Gallery</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/contact/" class="pp-menu-link">Contact</a></li>
+        <li class="pp-menu-item"><a href="https://theplatinumpartnership.com/blog-page/" class="pp-menu-link">Blog</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Mobile Navigation Toggle -->
+    <button class="pp-mobile-toggle" aria-label="Mobile menu toggle" aria-expanded="false">
+      <span class="pp-toggle-icon pp-toggle-open">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+        </svg>
+      </span>
+      <span class="pp-toggle-icon pp-toggle-close">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+        </svg>
+      </span>
+    </button>
+    
+    <!-- Mobile Dropdown Menu -->
+    <div class="pp-mobile-nav">
+      <ul class="pp-mobile-menu">
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/" class="pp-mobile-link pp-active">Home</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/about/" class="pp-mobile-link">About</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/who-we-are/" class="pp-mobile-link">Who We Are</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/what-we-do/" class="pp-mobile-link">What We Do</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/how-we-work/" class="pp-mobile-link">How We Work</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/projects/" class="pp-mobile-link">Projects</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/gallery/" class="pp-mobile-link">Gallery</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/contact/" class="pp-mobile-link">Contact</a></li>
+        <li class="pp-mobile-item"><a href="https://theplatinumpartnership.com/blog-page/" class="pp-mobile-link">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<style>
+/* Base Styles */
+.pp-header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+.pp-header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pp-logo-img {
+  height: auto;
+  max-width: 180px;
+  transition: opacity 0.3s;
+}
+
+.pp-logo-img:hover {
+  opacity: 0.8;
+}
+
+/* Desktop Navigation */
+.pp-desktop-nav {
+  display: block;
+}
+
+.pp-nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pp-menu-item {
+  margin: 0 5px;
+  position: relative;
+}
+
+.pp-menu-link {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s;
+  display: block;
+}
+
+.pp-menu-link:hover,
+.pp-menu-link.pp-active {
+  color: #0056b3;
+}
+
+/* Mobile Toggle Button */
+.pp-mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 1001;
+}
+
+.pp-toggle-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.pp-toggle-close {
+  display: none;
+}
+
+/* Mobile Navigation */
+.pp-mobile-nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.pp-mobile-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pp-mobile-item {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pp-mobile-link {
+  display: block;
+  padding: 15px 20px;
+  color: #333333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pp-mobile-link:hover,
+.pp-mobile-link.pp-active {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+/* Tagline Styles */
+.pp-tagline {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.pp-tagline-text {
+  margin: 0;
+  color: #666666;
+  font-style: italic;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .pp-desktop-nav {
+    display: none;
+  }
+  
+  .pp-mobile-toggle {
+    display: block;
+  }
+  
+  .pp-header-container {
+    padding: 10px 15px;
+  }
+  
+  .pp-logo-img {
+    max-width: 150px;
+  }
+}
+
+/* Active State for Mobile Menu */
+.pp-mobile-toggle[aria-expanded="true"] .pp-toggle-open {
+  display: none;
+}
+
+.pp-mobile-toggle[aria-expanded="true"] .pp-toggle-close {
+  display: block;
+}
+
+.pp-mobile-toggle[aria-expanded="true"] + .pp-mobile-nav {
+  display: block;
+}
+
+/* JavaScript Interaction Styles */
+.pp-mobile-nav.pp-active {
+  display: block;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggle = document.querySelector('.pp-mobile-toggle');
+  const mobileNav = document.querySelector('.pp-mobile-nav');
+  
+  if (toggle && mobileNav) {
+    toggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
+      mobileNav.classList.toggle('pp-active');
+    });
+  }
+  
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', function(e) {
+    if (mobileNav && mobileNav.classList.contains('pp-active') && 
+        !e.target.closest('.pp-mobile-nav') && 
+        !e.target.closest('.pp-mobile-toggle')) {
+      mobileNav.classList.remove('pp-active');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+});
+</script>
