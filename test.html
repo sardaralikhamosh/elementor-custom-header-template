@@ -1,0 +1,148 @@
+<div class="custom-features-section">
+    <div class="custom-features-container">
+        <!-- Feature Box 1 -->
+        <div class="custom-feature-box">
+            <div class="custom-feature-icon">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-1.svg" alt="Creative Concepts" class="icon-white">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-dark-1.svg" alt="Creative Concepts" class="icon-dark">
+            </div>
+            <h3 class="custom-feature-title">Creative Concepts</h3>
+            <p class="custom-feature-text">Every event is custom-designed with your unique story in mind.</p>
+        </div>
+
+        <!-- Feature Box 2 -->
+        <div class="custom-feature-box">
+            <div class="custom-feature-icon">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-2.svg" alt="Strategic Planning" class="icon-white">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-dark-2.svg" alt="Strategic Planning" class="icon-dark">
+            </div>
+            <h3 class="custom-feature-title">Strategic Planning</h3>
+            <p class="custom-feature-text">We manage the logistics so you can enjoy the manner.</p>
+        </div>
+
+        <!-- Feature Box 3 -->
+        <div class="custom-feature-box">
+            <div class="custom-feature-icon">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-3.svg" alt="Vendors & Partners" class="icon-white">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-dark-3.svg" alt="Vendors & Partners" class="icon-dark">
+            </div>
+            <h3 class="custom-feature-title">Vendors & Partners</h3>
+            <p class="custom-feature-text">We work with only the best — from compare to stylists and venues.</p>
+        </div>
+
+        <!-- Feature Box 4 -->
+        <div class="custom-feature-box">
+            <div class="custom-feature-icon">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-4.svg" alt="Personalized Approach" class="icon-white">
+                <img src="https://demo.eventzen.ae/wp-content/uploads/2025/06/icon-dark-4.svg" alt="Personalized Approach" class="icon-dark">
+            </div>
+            <h3 class="custom-feature-title">Personalized</h3>
+            <p class="custom-feature-text">We limit bookings to provide you with full attention and dedication.</p>
+        </div>
+    </div>
+</div>
+
+<style type="text/css">
+    /* Custom Features Section Styling */
+.custom-features-section {
+    background-color: #17191E;
+    width: 100%;
+}
+
+.custom-features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.custom-feature-box {
+    background-color: #17191E;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    justify-content: center; /* Center vertically */
+    transition: all 0.3s ease;
+}
+
+.custom-feature-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.custom-feature-icon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.icon-dark {
+    opacity: 0;
+}
+
+.icon-white {
+    opacity: 1;
+}
+
+.custom-feature-title {
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    width: 100%; /* Ensure full width for proper centering */
+}
+
+.custom-feature-text {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+    width: 100%; /* Ensure full width for proper centering */
+    max-width: 100%; /* Prevent text overflow */
+}
+
+/* Hover Effects */
+.custom-feature-box:hover {
+    background-color: #ffffff;
+}
+
+.custom-feature-box:hover .custom-feature-title {
+    color: #17191E !important;
+}
+
+.custom-feature-box:hover .custom-feature-text {
+    color: #17191E;
+}
+
+.custom-feature-box:hover .icon-white {
+    opacity: 0;
+}
+
+.custom-feature-box:hover .icon-dark {
+    opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .custom-features-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-features-container {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
