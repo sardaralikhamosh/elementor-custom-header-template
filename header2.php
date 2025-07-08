@@ -111,14 +111,13 @@
                                             Aint Baton
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a class="dropdown-item" href="https://sepalfoundation.dezinegenius.com">Home</a></li>
+                                            <li><a class="dropdown-item" href="#">About</a></li>
+                                            <li><a class="dropdown-item" href="#">News & Services</a></li>
+                                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                                            <li><a class="dropdown-item Button-custom" href="#">Donate Now</a></li>
                                         </ul>
                                     </div>
-                                    
-                                    <span class="header-text">wma coat</span>
-                                    <span class="header-text">ESE</span>
                                 </div>
                             </div>
                         </div>
