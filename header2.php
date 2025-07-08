@@ -19,14 +19,9 @@
             color: #fff;
             border: none;
             padding: 8px 20px;
-            border-radius: 5px;
             text-decoration: none;
             display: inline-block;
             transition: all 0.3s ease;
-        }
-        .Button-custom:hover {
-            background-color: #e6731a;
-            color: #fff;
         }
         .navbar-brand img {
             max-height: 50px;
@@ -48,9 +43,6 @@
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s ease;
-        }
-        .desktop-menu a:hover {
-            color: #F48120;
         }
         .mobile-menu-btn {
             display: none;
