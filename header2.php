@@ -11,7 +11,7 @@
     <style type="text/css">
         .customheader {
             background: #fff;
-            padding: 15px 0;
+            padding: 15px 20px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .Button-custom {
@@ -55,14 +55,14 @@
         .mobile-menu {
             display: none;
             position: absolute;
-            top: 80px;
-            right: 15px;
+            top: 85px;
+            right: 0;
             background: #fff;
             box-shadow: 0 5px 10px rgba(0,0,0,0.1);
             border-radius: 5px;
             z-index: 1000;
-            width: 200px;
-            padding: 10px 0;
+            width: 100%;
+            padding: 10px 10px;
         }
         .mobile-menu.show {
             display: block;
@@ -75,7 +75,7 @@
             transition: all 0.3s ease;
         }
         .mobile-menu a:hover {
-            background: #f5f5f5;
+            background: #a5cd39;
             color: #F48120;
         }
         @media (max-width: 991px) {
@@ -105,7 +105,7 @@
                         <img src="https://sepalfoundation.dezinegenius.com/wp-content/uploads/2025/07/logo.png" alt="Logo">
                     </a>
                 </div>
-                <div class="col-6 col-md-8 text-end">
+                <div class="col-6 col-md-8">
                     <!-- Desktop Menu -->
                     <ul class="desktop-menu">
                         <li><a href="https://sepalfoundation.dezinegenius.com">Home</a></li>
