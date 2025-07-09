@@ -1,0 +1,51 @@
+@keyframes scrollLeftToRight {
+    0% {
+        transform: translateX(-100%) translateY(0);
+    }
+    20% {
+        transform: translateX(-80%) translateY(-5px);
+    }
+    40% {
+        transform: translateX(-60%) translateY(0);
+    }
+    60% {
+        transform: translateX(-40%) translateY(5px);
+    }
+    80% {
+        transform: translateX(-20%) translateY(0);
+    }
+    100% {
+        transform: translateX(0%) translateY(-5px);
+    }
+}
+
+/* Container styles */
+.scroll-custom {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    margin: 10px 0;
+}
+
+/* Text animation styles */
+.scroll-custom .elementor-heading-title {
+    position: absolute;
+    white-space: nowrap;
+    display: inline-block;
+    animation: scrollLeftToRight 30s linear infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+    color: #A5CD39;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 100%; /* Start off-screen */
+    margin: 0;
+}
+
+/* For seamless looping - add this if needed */
+.scroll-custom .elementor-heading-title::after {
+    content: "Giving is the best form of action - Be the change. - ";
+    padding-left: 50px;
+    color: #A5CD39;
+}
