@@ -15,7 +15,7 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .Button-custom {
-
+            border-radius: 5px;
             background-color: #F48120;
             color: #fff !important;
             border: none;
