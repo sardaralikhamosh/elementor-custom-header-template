@@ -21,7 +21,7 @@
 .form-input {
     flex: 1;
     padding: 12px 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #fff;
     border-radius: 4px 0 0 4px;
     font-size: 16px;
     outline: none;
@@ -29,10 +29,12 @@
 }
 
 .form-input:focus {
-    border-color: #A5CD39;
+    border-color: #fff;
 }
 
 .subscribe-button {
+    margin-left: 10px;
+    border-radius: 5px;
     padding: 12px 20px;
     background: #A5CD39;
     color: white;
@@ -42,10 +44,6 @@
     font-size: 16px;
     font-weight: bold;
     transition: background 0.3s;
-}
-
-.subscribe-button:hover {
-    background: #8cb82d;
 }
 
 /* Success message style */
