@@ -34,6 +34,7 @@
             list-style: none;
             margin: 0;
             padding: 0;
+            gap: 50px;
         }
         .desktop-menu li {
             margin-left: 20px;
