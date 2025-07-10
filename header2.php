@@ -51,6 +51,7 @@
             font-size: 24px;
             color: #333;
             cursor: pointer;
+            float:right; /*this is for shifting the humberger button of dropdown button on mobile devices */
         }
         .mobile-menu {
             display: none;
@@ -75,7 +76,7 @@
             transition: all 0.3s ease;
         }
         .mobile-menu a:hover {
-            background: #a5cd39;
+            background: #a5cd39 !important;
             color: #F48120;
         }
         @media (max-width: 991px) {
