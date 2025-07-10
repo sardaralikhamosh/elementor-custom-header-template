@@ -15,8 +15,9 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .Button-custom {
+
             background-color: #F48120;
-            color: #fff;
+            color: #fff !important;
             border: none;
             padding: 8px 20px;
             text-decoration: none;
@@ -42,7 +43,7 @@
         .desktop-menu a {
             color: #333;
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 400;
             transition: all 0.3s ease;
         }
         .mobile-menu-btn {
