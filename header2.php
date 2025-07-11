@@ -114,6 +114,7 @@
                         <li><a href="https://sepalfoundation.dezinegenius.com">Home</a></li>
                         <li><a href="https://sepalfoundation.dezinegenius.com/about">About</a></li>
                         <li><a href="https://sepalfoundation.dezinegenius.com/our-work">Our Work</a></li>
+                        <li><a href="https://sepalfoundation.dezinegenius.com/our-teams/">Our Teams</a></li>
                         <li><a href="https://sepalfoundation.dezinegenius.com/news-and-updates/">News & Updates</a></li>
                         <li><a href="https://sepalfoundation.dezinegenius.com/contact">Contact</a></li>
                         <li><a class="Button-custom" href="https://sepalfoundation.dezinegenius.com/contact">Donate Now</a></li>
@@ -129,6 +130,7 @@
                         <a href="https://sepalfoundation.dezinegenius.com">Home</a>
                         <a href="https://sepalfoundation.dezinegenius.com/about">About</a>
                         <a href="https://sepalfoundation.dezinegenius.com/our-work">Our Work</a>
+                        <a href="https://sepalfoundation.dezinegenius.com/our-teams/">Our Teams</a>
                         <a href="https://sepalfoundation.dezinegenius.com/news-and-updates">News & Updates</a>
                         <a href="https://sepalfoundation.dezinegenius.com/contact">Contact</a>
                         <a class="Button-custom" href="https://sepalfoundation.dezinegenius.com/contact" style="margin: 10px 15px; display: inline-block;">Donate Now</a>
