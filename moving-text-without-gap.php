@@ -1,10 +1,13 @@
 <div class="outer">
   <div class="loop">
-    <div class="content">Giving is the best form of action - be the change - giving is the best form of action - be the change</div>
+    <div class="content">Giving is the best form of action - <label class="color-green">be the change</label> - giving is the best form of action - <label class="color-green">be the change</label></div>
   </div>
 </div>
 
 <style>
+  .color-green{
+    color: #A5CD39;
+  }
   .outer {
     overflow: hidden;
     white-space: nowrap;
